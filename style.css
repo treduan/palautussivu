@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: rgb(196, 204, 201);
+}
+
+header {
+    background-color:rgb(8, 86, 60);
+    color: white;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+nav li {
+    list-style: none;
+    padding: 10px;
+}
+nav li a {
+    text-decoration: none;
+}
+nav li a:hover {
+   background-color: rgb(4, 40, 28);
+   cursor: pointer;
+    text-decoration: underline;
+}
