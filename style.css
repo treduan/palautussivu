@@ -23,3 +23,10 @@ nav li a:hover {
    cursor: pointer;
     text-decoration: underline;
 }
+
+img {
+    height: 300px;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 5px 3px rgb(122, 140, 134);
+}
