@@ -1,3 +1,5 @@
-<p>Copyright Anna Metsäpelto</p>
+<footer>
+    <p>Copyright Anna Metsäpelto</p>
+</footer>
 </body>
 </html>

@@ -2,10 +2,16 @@ body {
     margin: 0;
     background-color: rgb(196, 204, 201);
 }
-
+.main {
+    background-color: rgb(196, 204, 201);
+    color:rgb(8, 86, 60);
+    padding-left: 10px;
+}
 header {
     background-color:rgb(8, 86, 60);
     color: white;
+    height: 200px;
+    margin-top: -20px;
 }
 nav ul {
     display: flex;
@@ -16,17 +22,32 @@ nav li {
     padding: 10px;
 }
 nav li a {
+    color: white;
     text-decoration: none;
 }
 nav li a:hover {
-   background-color: rgb(4, 40, 28);
+   color:rgb(164, 211, 195);
    cursor: pointer;
     text-decoration: underline;
 }
 
-img {
+.dragonImage {
     height: 300px;
-    display: block;
     margin: auto;
+    border-radius: 10px;
     box-shadow: 10px 5px 3px rgb(122, 140, 134);
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer p {
+    margin: 10px;
+    padding: 10px;
+}
+.dragon {
+    margin: 20px;
 }
